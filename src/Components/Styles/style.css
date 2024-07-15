@@ -1,0 +1,12 @@
+img{
+    width: 15px;
+    height: 10vh;
+}
+.header{
+    background-color: #0000;
+    color: #fff;
+}
+.footer{
+    background-color: #3333;
+    color: #fff;
+}
