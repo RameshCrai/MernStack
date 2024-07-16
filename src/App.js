@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-// import { Second1, Second2 } from './Components/second';
-import {HomePage} from './pages/homepage'
+
+
+
+import MyRoutes from './MyRoutes';
 
 
 function App() {
   return (
     <div className="App">
-     <HomePage/>
+    <MyRoutes/>
     </div>
   );
 }
