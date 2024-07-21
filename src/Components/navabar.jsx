@@ -1,6 +1,6 @@
 import code from './Images/code.png'; 
 import './Styles/style.css'
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 export const Navbar = () => {
     return (
         <>
@@ -13,8 +13,11 @@ export const Navbar = () => {
                     </div>
                     <div className="col-md-6">
                        <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
+                        {/* //navlink */}
+                        {/* <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/about'>About</Link></li> */}
+                        <li><NavLink to='/home'>Home</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
                        </ul>
                     </div>
                 </div>
