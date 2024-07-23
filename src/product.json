@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "product_name": "shoes",
+        "product_price": "2000",
+        "product_des": "this is shoes",
+        "product_image": "/img/shoes.jpg"
+    },
+    {
+        "id": "2",
+        "product_name": "t-shirt",
+        "product_price": "2500",
+        "product_des": "this is shoes",
+        "product_image": "/img/tshirt.jpg"
+    },
+    {
+        "id": "3",
+        "product_name": "bag",
+        "product_price": "20000",
+        "product_des": "this is shoes",
+        "product_image": "/img/bag.jpg"
+    }
+]
